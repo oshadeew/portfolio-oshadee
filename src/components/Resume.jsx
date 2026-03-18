@@ -73,22 +73,22 @@ export default function Resume() {
                 {
                   label: 'Education',
                   value: 'B.Sc. Computer Science',
-                  sub: 'Undergraduate – currently enrolled',
+                  sub: 'Second Year Undergraduate',
                 },
                 {
                   label: 'Core Skills',
                   value: 'Full Stack & UI/UX Development',
-                  sub: 'React, Node.js, Firebase, Figma, Python, Java',
+                  sub: 'React, Node.js, Figma, Python, Java, Firebase',
                 },
                 {
                   label: 'Key Projects',
                   value: '5+ Completed Projects',
-                  sub: 'IoT, Mobile, Web, Systems, UI/UX',
+                  sub: 'Web, Mobile, Systems, UI/UX, IoT',
                 },
                 {
                   label: 'Leadership',
-                  value: 'IEEE RAS SBC of IIT & Vertex\'25',
-                  sub: 'Assistant Secretary, Project Chairperson, and more',
+                  value: 'IEEE RAS SBC of IIT',
+                  sub: 'Assistant Secretary, Project Chairperson – RobotNexus 3.0, and more',
                 },
               ].map((item, i) => (
                 <motion.div
