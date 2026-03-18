@@ -72,18 +72,18 @@ export default function Resume() {
               {[
                 {
                   label: 'Education',
-                  value: 'B.Sc. Computer Science',
+                  value: 'B.Sc(Hons) Computer Science',
                   sub: 'Second Year Undergraduate',
                 },
                 {
                   label: 'Core Skills',
                   value: 'Full Stack & UI/UX Development',
-                  sub: 'React, Node.js, Figma, Python, Java, Firebase',
+                  sub: 'React, Figma, Java, Python, Node.js, Firebase',
                 },
                 {
                   label: 'Key Projects',
                   value: '5+ Completed Projects',
-                  sub: 'Web, Mobile, Systems, UI/UX, IoT',
+                  sub: 'Web, Mobile, UI/UX, Systems, IoT',
                 },
                 {
                   label: 'Leadership',
