@@ -49,9 +49,9 @@ const projects = [
   },
   {
     number: '05',
-    title: 'Ticket Booking System',
+    title: 'Theater Ticket Booking System',
     description:
-      'A Java-based multi-threaded ticket booking simulation with shared resources, mutex locks, and semaphore-based concurrency control. Demonstrates OS-level thread management concepts.',
+      'A Java-based multi-threaded ticket booking simulation with shared resources, mutex locks, and concurrency control. Demonstrates OS-level thread management concepts.',
     tech: ['Java', 'Multi-threading', 'Concurrency', 'OOP'],
     category: 'Java Concurrent Programming',
     color: '#B11226',
