@@ -57,7 +57,7 @@ export default function Resume() {
                   View Resume
                 </motion.a>
                 <motion.a
-                  href="/cv.pdf"
+                  href="/Oshadee_CV.pdf"
                   download="Oshadee_Bindiya_CV.pdf"
                   whileHover={{ scale: 1.02 }}
                   className="btn-outline flex items-center gap-2 text-sm"
