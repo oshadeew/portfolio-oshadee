@@ -94,11 +94,7 @@ export default function Contact() {
                 ))}
               </div>
 
-              <div className="bg-[#1A1A1A] border border-[#B11226]/20 rounded-2xl p-5">
-                <p className="text-gray-400 text-sm leading-relaxed">
-                  Currently <span className="text-green-400 font-medium">open to opportunities</span> — internships, collaborations, freelance projects, and full-time roles. Don't hesitate to reach out!
-                </p>
-              </div>
+
             </div>
           </AnimatedSection>
 
