@@ -46,25 +46,27 @@ export default function Resume() {
                 My resume covers my academic background, technical skills, project experience, and leadership roles.
               </p>
               <div className="flex flex-wrap gap-3 justify-center">
-                <motion.a
-                  href="/Oshadee_CV.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  whileHover={{ scale: 1.02 }}
-                  className="btn-primary flex items-center gap-2 text-sm"
-                >
-                  <FiEye size={15} />
-                  View Resume
-                </motion.a>
-                <motion.a
-                  href="/Oshadee_CV.pdf"
-                  download="Oshadee_Bindiya_CV.pdf"
-                  whileHover={{ scale: 1.02 }}
-                  className="btn-outline flex items-center gap-2 text-sm"
-                >
-                  <FiDownload size={15} />
-                  Download CV
-                </motion.a>
+                <motion.div whileHover={{ scale: 1.02 }}>
+                  <a
+                    href="/Oshadee_CV.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn-primary flex items-center gap-2 text-sm"
+                  >
+                    <FiEye size={15} />
+                    View Resume
+                  </a>
+                </motion.div>
+                <motion.div whileHover={{ scale: 1.02 }}>
+                  <a
+                    href="/Oshadee_CV.pdf"
+                    download="Oshadee_Bindiya_CV.pdf"
+                    className="btn-outline flex items-center gap-2 text-sm"
+                  >
+                    <FiDownload size={15} />
+                    Download CV
+                  </a>
+                </motion.div>
               </div>
             </div>
 
