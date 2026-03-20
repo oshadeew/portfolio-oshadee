@@ -87,7 +87,7 @@ export default function Projects() {
             <div className="flex-1 h-[1px] bg-gradient-to-r from-[#B11226]/50 to-transparent" />
           </div>
           <h2 className="section-title">
-            Selected <span className="text-gradient">Work</span>
+            Key <span className="text-gradient">Projects</span>
           </h2>
           <p className="section-subtitle">Projects that showcase my skills and interests</p>
         </AnimatedSection>
