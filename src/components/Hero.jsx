@@ -81,10 +81,10 @@ export default function Hero() {
                 <FiArrowDown size={16} />
               </button>
             </Link>
-            <button className="btn-outline flex items-center gap-2 opacity-60 cursor-not-allowed" disabled title="CV coming soon">
+            <a href="/Oshadee_CV.pdf" download="Oshadee_Bindiya_CV.pdf" className="btn-outline flex items-center gap-2">
               <FiDownload size={16} />
               Download CV
-            </button>
+            </a>
           </motion.div>
 
           <motion.div variants={itemVariants} className="flex items-center gap-4">
