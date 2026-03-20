@@ -47,7 +47,7 @@ export default function Resume() {
               </p>
               <div className="flex flex-wrap gap-3 justify-center">
                 <motion.a
-                  href="/Oshadee_Cv.pdf"
+                  href="/Oshadee_CV.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.02 }}
