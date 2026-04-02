@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
-import { FiCode, FiLayout, FiUsers } from 'react-icons/fi';
+import { FiCode, FiCheckCircle, FiUsers } from 'react-icons/fi';
 
 const highlights = [
   {
@@ -11,9 +11,9 @@ const highlights = [
     description: 'Building end-to-end applications with modern frameworks and cloud technologies.',
   },
   {
-    icon: <FiLayout size={20} />,
-    title: 'UI/UX Design',
-    description: 'Crafting intuitive, beautiful interfaces with a user-first design philosophy.',
+    icon: <FiCheckCircle size={20} />,
+    title: 'Software Testing & QA',
+    description: 'Ensuring software quality through manual and automated testing, with a focus on reliability and user confidence.',
   },
   {
     icon: <FiUsers size={20} />,
@@ -77,10 +77,10 @@ export default function About() {
                 .
               </p>
               <p>
-                I'm deeply interested in the intersection of{' '}
-                <span className="text-[#F5F5F5] font-medium">UI/UX design and full-stack development</span>{' '}
-                - where thoughtful aesthetics meet robust engineering. I believe great software
-                isn't just functional; it's elegant, accessible, and delightful to use.
+                I'm deeply interested in{' '}
+                <span className="text-[#F5F5F5] font-medium">full-stack development and software quality assurance</span>{' '}
+                — building reliable, scalable systems and ensuring they perform flawlessly through rigorous testing. I believe great software
+                isn't just functional; it's tested, trusted, and built to last.
               </p>
               <p>
                 Beyond code, I'm a{' '}

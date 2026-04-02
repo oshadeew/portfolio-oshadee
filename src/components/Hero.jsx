@@ -62,16 +62,16 @@ export default function Hero() {
             variants={itemVariants}
             className="text-gray-400 text-base md:text-lg font-medium mb-3 tracking-wide leading-loose"
           >
-            Computer Science Undergraduate<br />UI/UX &amp; Full Stack Developer
+            Computer Science Undergraduate<br />Full Stack Developer &amp; Software Engineer
           </motion.p>
 
           <motion.p
             variants={itemVariants}
             className="text-gray-300 text-lg md:text-xl leading-relaxed mb-8 max-w-lg"
           >
-            Building impactful digital experiences through{' '}
-            <span className="text-[#B11226] font-medium">design, development,</span> and{' '}
-            <span className="text-[#B11226] font-medium">innovation.</span>
+            Building impactful, reliable software through{' '}
+            <span className="text-[#B11226] font-medium">full-stack engineering,</span> and{' '}
+            <span className="text-[#B11226] font-medium">quality assurance.</span>
           </motion.p>
 
           <motion.div variants={itemVariants} className="flex flex-wrap gap-4 mb-10">
