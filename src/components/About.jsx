@@ -13,7 +13,7 @@ const highlights = [
   {
     icon: <FiCheckCircle size={20} />,
     title: 'Software Testing & QA',
-    description: 'Ensuring software quality through manual and automated testing, with a focus on reliability and user confidence.',
+    description: 'Learning to build reliable software with a focus on quality and user experience.',
   },
   {
     icon: <FiUsers size={20} />,
